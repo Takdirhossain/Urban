@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+.hero{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+ul{
+    flex: 1;
+    text-align: right;
+
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    font-family: 'Passion One', cursive;
+    position: relative;
+}
+ul li a::after{
+    content: '';
+    width: 0%;
+    height: 10px;
+    
+    background: #f14a60;
+    position: absolute;
+    left: 0%;
+    transform: rotateX(-50%);
+    top: -60px;
+    transition: 0.5s;
+
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.icons img{
+    height: 20px;
+    margin-left: 40px;
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-cell,.right-cell{
+    flex-basis: 50%;
+}
+.right-cell img{
+    width: 100%;
+}
+.searchbox{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    margin: 10px o 30px;
+}
+.searchbox img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.searchbox input{
+    border: 0;
+    outline: none;
+    margin-left: 15px;
+}
+.leftcontent{
+    margin-top: 30px;
+}
+.leftcontent h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+.leftcontent h1 span{
+    color: #f14a60;
+}
+.leftcontent h3{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+}
+.leftcontent h3 span{
+    color: #f14a60;
+}
+.bottonbox{
+    margin-top: 30px;
+}
+.bottonbox button{
+    padding: 10px;
+    border: 1px solid #f14a60;
+    border-radius: 25px;
+    color: #f14a60;
+    
+}
+
+
+.bottonbox button:hover{
+    background-color: #f14a60;
+    color: #fff;
+}
+.socal img{
+    width: 15px;
+    margin-top: 30px;
+    height: 20px;
+    margin-left: 30px ;
+    
+   
+}
